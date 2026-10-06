@@ -1,8 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #fcfcfc;
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
     text-align: center;
 }
@@ -51,11 +50,13 @@ h2 {
 
 }
 .conteudo-principal {
-    margin-left: 250x;
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: calc(250px +auto);
+    margin-left: 250px;
     padding: 40px 20px;
+}
+.secao,
+.secao-unidade {
+    max-width: 800px;
+    margin: 0 auto;
 }
 .secao {
     min-height: 100vh;
